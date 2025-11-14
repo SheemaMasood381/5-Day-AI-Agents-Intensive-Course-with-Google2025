@@ -1,108 +1,192 @@
-# 5-Day-AI-Agents-Intensive-Course-with-Google2025
+# 5-Day AI Agents Intensive Course with Google (Kaggle) — 2025
 
-Notebooks, assignments, and capstone project from the 5-Day AI Agents Intensive Course with Google (Kaggle) — exploring AI agent design, reasoning, and automation using Google AI tools.
+Notebooks, assignments, and a capstone project from the 5-Day AI Agents Intensive Course with Google (hosted on Kaggle). This repository explores AI agent design, reasoning, and automation using Google AI tools.
+
+---
 
 ## Key Features & Benefits
 
-*   **Hands-on Experience:** Gain practical experience in designing and building AI agents.
-*   **Google AI Tools:** Learn to leverage Google's cutting-edge AI technologies.
-*   **Comprehensive Curriculum:** Covers agent design, reasoning, and automation.
-*   **Real-World Applications:** Apply your knowledge to solve practical problems with a capstone project.
-*   **Structured Learning:** Follow a well-organized curriculum spread over 5 days.
+- **Hands-on Experience:** Practical exercises for designing and building AI agents.  
+- **Google AI Tools:** Learn to leverage Google's cutting-edge AI technologies (e.g., Gemini).  
+- **Comprehensive Curriculum:** Covers agent design, reasoning, and automation across 5 days.  
+- **Real-World Applications:** Apply knowledge to solve practical problems in a capstone project.  
+- **Structured Learning:** A well-organized curriculum with day-by-day notebooks and assignments.
+
+---
 
 ## Prerequisites & Dependencies
 
-To successfully run the notebooks and complete the assignments in this repository, you'll need the following:
+To run the notebooks and complete the assignments:
 
-*   **Python 3.6+:**  Ensure you have Python installed on your system.
-*   **Jupyter Notebook/Lab:** Recommended for running and interacting with the notebooks.
-*   **Kaggle Account:**  A Kaggle account is required, as the course is affiliated with Kaggle.
-*   **Required Python Packages:** Install the following packages using pip:
+- Python 3.6+  
+- Jupyter Notebook or JupyterLab (recommended)  
+- Kaggle account (course affiliation)  
+- Required Python packages (install via pip):
 
-    ```bash
-    pip install openai google-generativeai  tiktoken
-    ```
+```bash
+pip install openai google-generativeai tiktoken
+```
 
-    *   `openai`: OpenAI API for interacting with GPT models (if applicable).
-    *   `google-generativeai`: Google AI SDK for Gemini models.
-    *   `tiktoken`: For tokenization (if applicable).
-*   **API Keys:** Obtain API keys for any external services utilized by the agents (e.g., Google AI Studio, OpenAI). Store these keys securely, preferably using environment variables.
+Packages used in the notebooks may include:
+- `openai` — OpenAI API client (if applicable)
+- `google-generativeai` — Google AI SDK for Gemini models
+- `tiktoken` — Tokenization utilities
 
-## Installation & Setup Instructions
+---
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone https://github.com/SheemaMasood381/5-Day-AI-Agents-Intensive-Course-with-Google2025.git
-    cd 5-Day-AI-Agents-Intensive-Course-with-Google2025
-    ```
+## API Keys
 
-2.  **Install Dependencies:**
-    ```bash
-    pip install -r requirements.txt  #If a requirements.txt file is available
-    # Otherwise, install dependencies as mentioned above
-    # pip install openai google-generativeai tiktoken
-    ```
+Obtain API keys for any external services used by the agents (e.g., Google AI Studio, OpenAI). Store them securely using environment variables.
 
-3.  **Set Up API Keys:**
-    *   Obtain the necessary API keys (Google AI Studio, OpenAI, etc.).
-    *   Set environment variables to securely store your API keys. For example:
+Example (Linux/macOS):
 
-        ```bash
-        export GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
-        export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
-        ```
+```bash
+export GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"
+export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
+```
 
-        You can also set these in your notebook or `.env` file.
+Or add a `.env` file to the project root:
 
-4.  **Open Notebooks:**
-    Launch Jupyter Notebook or JupyterLab:
-    ```bash
-    jupyter notebook
-    # or
-    jupyter lab
-    ```
-    Navigate to the cloned repository and open the desired notebook (`.ipynb`) file.
+```
+GOOGLE_API_KEY=YOUR_GOOGLE_API_KEY
+OPENAI_API_KEY=YOUR_OPENAI_API_KEY
+```
+
+Make sure to never commit secret keys to version control.
+
+---
+
+## Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/SheemaMasood381/5-Day-AI-Agents-Intensive-Course-with-Google2025.git
+cd 5-Day-AI-Agents-Intensive-Course-with-Google2025
+```
+
+2. Install dependencies:
+
+If a `requirements.txt` file is provided:
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install the core packages manually:
+
+```bash
+pip install openai google-generativeai tiktoken
+```
+
+3. Set up API keys (see "API Keys" above).
+
+4. Launch Jupyter Notebook or JupyterLab and open notebooks:
+
+```bash
+jupyter notebook
+# or
+jupyter lab
+```
+
+Navigate to the repository folder and open the desired `.ipynb` files.
+
+---
+
+## Course Curriculum
+
+Day-by-day notebooks:
+
+- **Day 1 — Foundations**
+  - `ai-agents-day-1a-from-prompt-to-action.ipynb`
+  - `ai-agents-day-1b-agent-architectures.ipynb`
+
+- **Day 2 — Tools & Best Practices**
+  - `ai-agents-day-2a-agent-tools.ipynb`
+  - `ai-agents-day-2b-agent-tools-best-practices.ipynb`
+
+- **Day 3 — Sessions & Memory**
+  - `ai-agents-day-3a-agent-sessions.ipynb`
+  - `ai-agents-day-3b-agent-memory.ipynb`
+
+- **Day 4 — Observability & Evaluation**
+  - `ai-agents-day-4a-agent-observability.ipynb`
+  - `ai-agents-day-4b-agent-evaluation.ipynb`
+
+- **Day 5 — Multi-Agent Systems**
+  - `ai-agents-day-5a-agent2agent-communication.ipynb`
+
+Each notebook contains code examples, explanations, and hands-on exercises.
+
+---
 
 ## Usage Examples & API Documentation
 
-Refer to the individual notebooks for detailed usage examples and API documentation specific to each task:
+Refer to individual notebooks for:
+- Code examples and explanations
+- Hands-on exercises
+- Best practices and tips
+- Integration guidance for Google AI and OpenAI APIs
 
-*   `ai-agents-day-1a-from-prompt-to-action.ipynb`:  Introduction to AI agents and prompt engineering.
-*   `ai-agents-day-1b-agent-architectures.ipynb`: Exploring different agent architectures.
-*   `ai-agents-day-2a-agent-tools.ipynb`: Utilizing tools within AI agents.
-*   `ai-agents-day-2b-agent-tools-best-practices.ipynb`: Best practices for agent tool usage.
-*   `ai-agents-day-3a-agent-sessions.ipynb`: Managing agent sessions.
-*   `ai-agents-day-3b-agent-memory.ipynb`: Implementing agent memory.
-*   `ai-agents-day-4a-agent-observability.ipynb`: Monitoring and debugging agents.
-*   `ai-agents-day-4b-agent-evaluation.ipynb`: Evaluating agent performance.
-*   `ai-agents-day-5a-agent2agent-communication.ipynb`: Exploring communication between multiple agents.
+Notebooks typically include code cells showing how to configure models, call APIs, and run agent pipelines.
 
-Inside each notebook, you'll find code examples, explanations, and exercises to guide you through the material.
+---
 
 ## Configuration Options
 
-Most configurations are done directly within the notebooks themselves. However, the following aspects can be configured:
+Common configurations (set within notebooks or as environment variables):
 
-*   **API Keys:**  As mentioned previously, API keys should be set as environment variables.
-*   **Model Selection:** Many notebooks allow you to choose between different models (e.g., Gemini, GPT-3.5, GPT-4).  Refer to the notebook's documentation for instructions on how to specify the desired model.
-*   **Hyperparameters:** Experiment with different hyperparameters within the notebooks to optimize agent performance (e.g., temperature, top\_p).
+- API Keys: Use environment variables (see above).  
+- Model Selection: Choose between models (e.g., Gemini family, GPT-3.5, GPT-4) as supported by the SDKs.  
+- Hyperparameters: Tune agent behavior with options such as:
+  - `temperature` — controls randomness/creativity
+  - `top_p` — nucleus sampling for diversity
+  - Other model-specific parameters
 
-## Contributing Guidelines
+---
 
-We welcome contributions to this repository! If you find any issues or have suggestions for improvements, please feel free to:
+## Capstone Project
 
-1.  **Fork the repository.**
-2.  **Create a new branch for your feature or bug fix.**
-3.  **Make your changes.**
-4.  **Submit a pull request.**
+The capstone ties together the concepts from the 5 days into a practical project. See the capstone notebook and assignment(s) for requirements, dataset(s), and evaluation criteria.
 
-Please ensure your code is well-documented and follows the existing coding style.
+---
 
-## License Information
+## Contributing
 
-License not specified. All rights reserved unless otherwise noted.
-Contact [SheemaMasood381](mailto:your-email@example.com) for licensing inquiries.
+We welcome contributions!
+
+1. Fork the repository  
+2. Create a feature branch:
+
+```bash
+git checkout -b feature/your-feature-name
+```
+
+3. Make your changes and document them.  
+4. Submit a pull request with a clear description.
+
+Please follow the existing coding style and include documentation for any new features.
+
+---
+
+## License
+
+This repository is licensed under the Apache License, Version 2.0.
+
+For the full license text, see the `LICENSE` file or visit: https://www.apache.org/licenses/LICENSE-2.0
+
+Copyright © 2025 Google LLC
+
+---
 
 ## Acknowledgments
 
-This repository is based on the 5-Day AI Agents Intensive Course with Google (Kaggle). We thank Google and Kaggle for providing the course materials and resources.
+This repository is based on the 5-Day AI Agents Intensive Course with Google (Kaggle). We gratefully acknowledge Google and Kaggle for providing the course materials, curriculum, and resources.
+
+---
+
+## Contact & Licensing Inquiries
+
+For questions regarding licensing or usage rights, contact: SheemaMasood381
+
+Happy Learning! 🚀
