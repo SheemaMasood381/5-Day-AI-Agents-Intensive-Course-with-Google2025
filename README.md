@@ -78,6 +78,7 @@ jupyter lab
 ```
 
 ## 📂 Repository Structure
+```bash
 5-Day-AI-Agents-Intensive-Course-with-Google2025/
 │
 ├── README.md                                          # This file
@@ -110,7 +111,7 @@ jupyter lab
 │
 ├── .env.example                                       # Template for API keys
 └── LICENSE                                            # Apache 2.0 License
-
+```
 ---------
 ## Course Curriculum
 
