@@ -182,20 +182,6 @@ Agent-to-agent communication and coordination
 - **Tool Integration** — Custom functions for task CRUD operations  
 - **Evaluation Framework** — Complete test suite with evalset validation  
 
-## Quick Demo
-
-# User: "Add buy groceries to my tasks"
-# Agent → calls add_task("buy groceries", "medium")
-# Response: "Added task: buy groceries with priority: medium"
-
-# User: "Complete buy groceries"
-# Agent → calls complete_task("buy groceries")
-# Response: "Completed task: buy groceries"
-
-# User: "Show my tasks"
-# Agent → calls list_tasks()
-# Response: [lists all active tasks]
-
 
 ## Technologies Used
 
