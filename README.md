@@ -295,11 +295,13 @@ See the LICENSE file for full details.
 **Sheema Masood**
 
 - **GitHub:** @SheemaMasood381  
-- **Kaggle:** Smart Personal Task Manager Agent Writeup  
+- **Kaggle:** https://www.kaggle.com/code/sheemamasood/ai-powered-task-manager-capstone-project  
 
 ---
 
 ## Contact & Support
 
-- **Email:** SheemaMasood381  
+- **Email:** SheemaMasood381@gmail.com 
 - **GitHub Issues:** Create an issue on the repository
+
+## Happy Learning! 🎓🚀
