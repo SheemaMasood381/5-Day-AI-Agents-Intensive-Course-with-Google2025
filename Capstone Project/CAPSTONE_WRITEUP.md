@@ -97,4 +97,57 @@ Agent reads JSON DB and lists tasks.
   "priority": "medium",
   "completed": false
 }
+'''
+
+# Smart Personal Task Manager Agent
+
+## Tool Functions
+- **Add task**, **mark task complete**, **list tasks**  
+- Interacts with task database and returns clean output
+
+## Multi-Agent Structure
+- **Understanding Agent**  
+- **Generation Agent**  
+- **Root Task Manager Agent**  
+
+> All models powered by Gemini with retry logic.
+
+## Sessions + Runner
+- **InMemorySessionService** ensures task memory  
+- **InMemoryRunner** executes agent decisions event-by-event  
+- Handles asynchronous messaging
+
+## Test Framework
+- Complete evaluation dataset: `integration.evalset.json`  
+- Validates tool calls, final responses, and agent correctness
+
+## Main Execution
+- Safe asynchronous execution with automatic session creation  
+- **Test sequence:**  
+  1. Add groceries  
+  2. Complete groceries  
+  3. List remaining tasks
+
+## Future Enhancements
+- Priority inference (auto-detect critical tasks)  
+- Deadline understanding and reminders  
+- Calendar integration (Google Calendar, Notion)  
+- Better natural language extraction using chain-of-thought reasoning  
+- Smart recommendations for procrastinated tasks  
+- Voice-based task entry  
+- Mobile-friendly UI (Streamlit / Gradio)  
+- Vector-based memory instead of JSON file  
+- Multi-user authentication for fully deployed app
+
+## Author
+**Sheema Masood**  
+- GitHub: [@SheemaMasood381](https://github.com/SheemaMasood381)  
+- Kaggle: Smart Personal Task Manager Agent Writeup
+
+## License
+This writeup has been released under the **Attribution 4.0 International (CC BY 4.0)** license.
+
+**Citation:**  
+Sheema Masood. *Smart Personal Task Manager Agent*.  
+Capstone Project Writeup on Kaggle. 2025.
 
