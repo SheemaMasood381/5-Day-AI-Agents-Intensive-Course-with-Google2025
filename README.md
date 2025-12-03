@@ -76,7 +76,7 @@ jupyter notebook
 jupyter lab
 
 ```
----
+
 ## 📂 Repository Structure
 5-Day-AI-Agents-Intensive-Course-with-Google2025/
 │
@@ -111,10 +111,9 @@ jupyter lab
 ├── .env.example                                       # Template for API keys
 └── LICENSE                                            # Apache 2.0 License
 
-
+---------
 ## Course Curriculum
 
-# Course Curriculum
 
 ## Day 1 — Foundations
 
@@ -156,11 +155,6 @@ Building evaluation frameworks and test suites
 
 **ai-agents-day-5a-agent2agent-communication.ipynb**  
 Agent-to-agent communication and coordination
-
-## Capstone: AI-Powered Task Manager
-**ai-powered-task-manager-capstone-project.ipynb — Full-stack multi-agent task management system**
-
----
 
 ##  Capstone Project
 
