@@ -97,7 +97,7 @@ Agent reads JSON DB and lists tasks.
   "priority": "medium",
   "completed": false
 }
-'''
+
 
 # Smart Personal Task Manager Agent
 
