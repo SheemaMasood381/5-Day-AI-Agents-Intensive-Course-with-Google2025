@@ -1,0 +1,68 @@
+{
+  "eval_set_id": "task_manager_integration_suite",
+  "eval_cases": [
+    {
+      "eval_id": "add_groceries_task",
+      "conversation": [
+        {
+          "user_content": {
+            "parts": [
+              {
+                "text": "Please add buy groceries to my tasks"
+              }
+            ]
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Added task: buy groceries with priority: medium"
+              }
+            ]
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "name": "add_task",
+                "args": {
+                  "task_description": "buy groceries",
+                  "priority": "medium"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "eval_id": "complete_groceries_task",
+      "conversation": [
+        {
+          "user_content": {
+            "parts": [
+              {
+                "text": "Please complete buy groceries from my tasks"
+              }
+            ]
+          },
+          "final_response": {
+            "parts": [
+              {
+                "text": "Completed task: buy groceries"
+              }
+            ]
+          },
+          "intermediate_data": {
+            "tool_uses": [
+              {
+                "name": "complete_task",
+                "args": {
+                  "task_description": "buy groceries"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
