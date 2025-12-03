@@ -167,34 +167,16 @@ Agent-to-agent communication and coordination
 # Production-Ready Multi-Agent System for Intelligent Task Management
 
 ## Architecture
-┌─────────────────────────┐
-│ Root Task Manager │
-│ Agent │
-└────────┬────────────────┘
-│
-┌────┴────┐
-│ │
-┌───▼──┐ ┌──▼────┐
-│Task │ │Task │
-│Under-│ │Gener- │
-│stand │ │ation │
-│Agent │ │Agent │
-└──────┘ └───────┘
-│ │
-└────┬─────┘
-│
-┌────▼─────────────┐
-│ Tool Functions │
-├──────────────────┤
-│ • add_task() │
-│ • complete_task()│
-│ • list_tasks() │
-└────┬─────────────┘
-│
-┌────▼──────────────┐
-│ Task Database │
-│ (JSON/Persistent) │
-└───────────────────┘
+
+- **Root Task Manager Agent**
+  - **Task Understand Agent**
+  - **Task Generation Agent**
+    - **Tool Functions**
+      - `add_task()`
+      - `complete_task()`
+      - `list_tasks()`
+    - **Task Database** (JSON / Persistent)
+-----
 
 
 ## Features
